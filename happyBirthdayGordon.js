@@ -70,6 +70,7 @@
 
 })();
 
+//example runtime
 happyBirthdayGordonJS.quoteGenerator()
 
 
