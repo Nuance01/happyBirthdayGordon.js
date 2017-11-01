@@ -1,6 +1,10 @@
 (function (){
     //happyBirthdayGordon.js: a simple library to help celebrate the born day of a great teacher
 
+    //version 1.0.0
+    //copyright Rick Hallett 2017 whitefire0
+    //https://github.com/whitefire0/happyBirthdayGordon.js
+
     //primary library object for export to window object
     var lib = {
         //declaration of library variables
