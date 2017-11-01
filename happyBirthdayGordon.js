@@ -62,6 +62,14 @@
             var max = 10;
             var rnd = Math.floor(Math.random() * (max - min + 1)) + min;
             console.log(this.data.zhuQuotes[rnd]);
+        },
+        askQuestion: function(question){
+            console.log("You asked: " + question);
+            if(this.data.todayDate.includes(this.data.gordonDayOfReincarnation)) {
+                console.log("Sorry, no questions on Gordon's Birthday!");
+            } else {
+                console.log("Read this first:  https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603");
+            }
         }
     }
 
